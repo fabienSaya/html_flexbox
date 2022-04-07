@@ -1,0 +1,28 @@
+.container{
+    width: 950px;
+    height: 400px;
+    background:rgb(235, 235, 235);
+    margin: 0 auto;    
+    /* c'est sur le parent qu'on indique comment on veut que les cartes s'affichent*/
+    display: flex;
+    justify-content: space-evenly; /*permet de distribuer l'espace entre les cartes enfant*/
+    flex-wrap: wrap; /* retour à la ligne pour les cartes suivante si on dépasse la taille du container pour afficher les cartes */
+    flex-basis: 3;
+}
+
+/*
+div.card {
+    width: 250px;
+    height: 100px;
+    background: green;    
+    display: inline-block;
+    
+}*/
+
+div.card {
+    width: 250px;
+    height: 200px;
+    background: rgb(108, 199, 108);
+    margin: 10px 0;
+}
+
