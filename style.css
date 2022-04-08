@@ -4,10 +4,10 @@
     background:rgb(235, 235, 235);
     margin: 0 auto;    
     /* c'est sur le parent qu'on indique comment on veut que les cartes s'affichent*/
-    display: flex;
+    display: flex;    
     justify-content: space-evenly; /*permet de distribuer l'espace entre les cartes enfant*/
     flex-wrap: wrap; /* retour à la ligne pour les cartes suivante si on dépasse la taille du container pour afficher les cartes */
-    flex-basis: 3;
+    
 }
 
 /*
